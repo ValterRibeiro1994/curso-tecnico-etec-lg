@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+ var nome;
+ nome = prompt("Digite seu nome:");
+
+    </script>
+    
+    <form action="" method="get">
+        <label>Digite um Numero: <br> </label>
+        <input type="number" name="numero1" id="numero1" > <br>
+
+        <label>Digite outro Numero:</label> <br>
+        <input type="number" name="numero2" id="numero2"><br><br>
+
+        <input type="button" id="Enviar" name="Enviar" onclick="executar()" value="Enviar">
+        <input type="reset">
+
+        <label for="text" id="Resultado" name="Resultado"></label>
+    </form>
+
+<script type="text/javascript">
+
+function executar(){
+
+
+var N1 = parseInt(document.getElementById('numero1').value);
+var N2 = parseInt(document.getElementById('numero2').value);
+var numeroFinal = N1 + N2;
+
+document.write( "Nome digitado: " + nome + "<br>" + "Valor Final: " + numeroFinal)
+}
+
+</script>
+    
+</body>
+</html>
