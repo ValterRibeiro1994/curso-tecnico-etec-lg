@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === "GET"){
         $mail->Port = 587;
 
         // remetente
-        $mail->setFrom('emailqualquer@gmail.com', 'Sistema');
+        $mail->setFrom('emailqualque@gmail.com', 'Sistema');
 
         // destinatário
         $mail->addAddress($_POST['emailUsuario']);
