@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === "GET"){
         $mail->SMTPAuth = true;
 
         // seu email gmail
-        $mail->Username = 'emailqualquer@gmail.com';
+        $mail->Username = 'emailqualque@gmail.com';
 
         // senha de app do gmail
         $mail->Password = 'senhaqualquer';
